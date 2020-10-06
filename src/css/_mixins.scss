@@ -1,6 +1,6 @@
 @mixin base-style($text-color) {
-    background-color: $main-color;
-    font-family: 'Rambla', sans-serif;
+	background-color: $main-color;
+	font-family: 'Rambla', sans-serif;
     font-size: 18px;
     color: $text-color;
 }
@@ -14,14 +14,14 @@
     padding: 0 40px;
     background-color: white;
     @media (max-width: 640px) {
-        max-width: 240px;
-        padding: 0 20px;
-        height: 460px;
-    }
+	    max-width: 240px;
+	    padding: 0 20px;
+	    height: 460px;
+	}
 }
 
 @mixin card-stack($offset) {
-    @include card;
+	@include card;
     position: absolute;
     top: (-10 * $offset) - 3 + px;
     right: (-10 * $offset) - 3 + px;

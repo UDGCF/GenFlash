@@ -1,11 +1,11 @@
 body {
     @include base-style(#444);
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
     line-height: 1.5;
     color: #444;
-    text-align: center;
-    box-sizing: border-box;
+	text-align: center;
+	box-sizing: border-box;
 }
 
 #flashcard {
@@ -39,7 +39,6 @@ body {
 }
 
 .answer {
-    // display: none;
     small {
         display: block;
         margin-top: 20px;
@@ -60,7 +59,7 @@ button {
     }
 }
 
-.back {
+.faded {
     opacity: .2;
     &:hover {
         cursor: default;
