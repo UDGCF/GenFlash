@@ -1,110 +1,80 @@
 export const flashcardContent = [
     {
-        question: "What is a primitive in JavaScript?",
-        answer: "A primitive (primitive value, primitive data type) is data that is not an object and has no methods. In JavaScript, there are 6 primitive data types: string, number, boolean, null, undefined, symbol (new in ECMAScript 2015).",
-        source: "Mozilla Developer Network",
-        sourceUrl: "https://developer.mozilla.org/en-US/docs/Glossary/Primitive"
+        question: "Will a higher or lower f/stop create a blurry background?",
+        answer: "The lower the f/stop — the larger the opening in the lens — the less depth of field — the blurrier the background.",
+        source: "Nikon - Understanding Maximum Aperture",
+        sourceUrl: "http://www.nikonusa.com/en/learn-and-explore/article/g3cu6o1r/understanding-maximum-aperture.html"
     },
     {
-        question: "What's the git command to change your last commit message?",
-        answer: "<code>git commit --amend -m 'new message'</code>",
-        source: "Git Documentation",
-        sourceUrl: "https://git-scm.com/docs/git-commit-tree"
+        question: "What is aperture?",
+        answer: "Aperture refers to the opening of a lens's diaphragm through which light passes. It is calibrated in f/stops and is generally written as numbers such as 1.4, 2, 2.8, 4, 5.6, 8, 11 and 16",
+        source: "Nikon - Understanding Maximum Aperture",
+        sourceUrl: "http://www.nikonusa.com/en/learn-and-explore/article/g3cu6o1r/understanding-maximum-aperture.html"
     },
     {
-        question: "What does the <code>.reduce()</code> method do?",
-        answer: "It applies a function against an accumulator and each value of the array (from left-to-right) to reduce it to a single value.",
-        source: "Mozilla Developer Network",
-        sourceUrl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce"
+        question: "How does aperture affect shutter speed?",
+        answer: "Using a low f/stop means more light is entering the lens and therefore the shutter doesn't need to stay open as long to make a correct exposure which translates into a faster shutter speed.",
+        source: "Nikon - Understanding Maximum Aperture",
+        sourceUrl: "http://www.nikonusa.com/en/learn-and-explore/article/g3cu6o1r/understanding-maximum-aperture.html"
     },
     {
-        question: "What does the <code>.map()</code> method do?",
-        answer: "It iterates through an array's contents, applies a function to each, and returns a new array",
-        source: "Egghead.io",
-        sourceUrl: "https://egghead.io/lessons/javascript-the-array-map-method"
+        question: "What is ISO?",
+        answer: "For digital photography, ISO refers to the sensitivity—the signal gain—of the camera's sensor.",
+        source: "Nikon - ISO Control",
+        sourceUrl: "http://www.nikonusa.com/en/learn-and-explore/article/ga5bvixe/iso-control.html"
     },
     {
-        question: "What's the value of <code>keyword</code> in this code? <br> <code>var keyword = true && 'hello';</code> ",
-        answer: "<code>'hello'</code>. If both values are truthy, the last truthy value is set. If there's a falsy, the first falsy value is set.",
-        source: "Code School JavaScript Best Practices",
-        sourceUrl: "https://www.codeschool.com/courses/javascript-best-practices"
+        question: "How is shutter speed measured? ",
+        answer: "In second fractions: 1/500, 1/250, 1/125, 1/60, 1/30, 1/15, 1/8 etc",
+        source: "Digital Photography School",
+        sourceUrl: "http://digital-photography-school.com/shutter-speed/"
     },
     {
-        question: "What does the <code>while</code> statement do?",
-        answer: "The while statement creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement.",
-        source: "Mozilla Developer Network",
-        sourceUrl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while"
+        question: "How does focal length impact shutter speed?",
+        answer: "Longer focal lengths will accentuate the amount of camera shake you have and so you’ll need to choose a faster shutter speed. ",
+        source: "Digital Photography School",
+        sourceUrl: "http://digital-photography-school.com/shutter-speed/"
     },
     {
-        question: "Are there true classes in JavaScript?",
-        answer: "No. The class syntax is not introducing a new object-oriented inheritance model to JavaScript. JavaScript classes provide a much simpler and clearer syntax to create objects and deal with inheritance.",
-        source: "Mozilla Developer Network",
-        sourceUrl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes"
+        question: "What's the 'exposure triangle'?",
+        answer: "ISO, Shutter Speed, Aperture",
+        source: "Digital Photography School",
+        sourceUrl: "http://digital-photography-school.com/aperture/"
     },
     {
-        question: "What is a radix?",
-        answer: "The base for integer conversion in <code>.parseInt()</code>, necessary for browsers pre 2013<br><code>parseInt('010', 10); // 10</code>",
-        source: "Mozilla Developer Network",
-        sourceUrl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt"
+        question: "What's the 'S' mode on a camera dial?",
+        answer: "Shutter priority is very similar to aperture priority mode but is the mode where you select a shutter speed and the camera then chooses all of the other settings",
+        source: "Digital Photography School",
+        sourceUrl: "http://digital-photography-school.com/digital-camera-modes/"
     },
     {
-        question: "What are the falsy values?",
-        answer: "false, 0, empty strings (\"\"), NaN, null, and undefined ",
-        source: "Mozilla Developer Network",
-        sourceUrl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript"
+        question: "What's a histogram?",
+        answer: "It graphs the tones in your image from black (on the left) to white (on the right). The higher the graph at any given point the more pixels of that tone that are present in an image. Shoot for an even balance.",
+        source: "Digital Photography School",
+        sourceUrl: "http://digital-photography-school.com/understanding-histograms/"
     },
     {
-        question: "What's an object literal?",
-        answer: "An object literal is a list of zero or more pairs of property names and associated values of an object, enclosed in curly braces ({}).<br><code>var car = { myCar: \"Saturn\", getCar: carTypes(\"Honda\"), special: sales };</code>",
-        source: "Mozilla Developer Network",
-        sourceUrl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Object_literals"
+        question: "What is split lighting in portrait photography?",
+        answer: "It splits the face exactly into equal halves with one side being in the light, and the other in shadow. To achieve split lighting simply put the light source 90 degrees to the left or right of the subject, and possibly even slightly behind their head.  ",
+        source: "Digital Photography School",
+        sourceUrl: "http://digital-photography-school.com/6-portrait-lighting-patterns-every-photographer-should-know/"
     },
     {
-        question: "What are the three parameters of the callback in <code>.forEach()</code>?",
-        answer: "<code>currentValue, index, array</code>. Ex:<br><code>[\"dog\", \"cat\", \"hen\"].forEach( (currentValue, index, array) => {});</code>",
-        source: "Mozilla Developer Network",
-        sourceUrl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript"
+        question: "What is Rembrandt lighting in portrait photography?",
+        answer: "Rembrandt lighting is identified by the triangle of light on the cheek. To create proper Rembrandt lighting make sure the eye on the shadow side of the face has light in it and has a catch light, otherwise the eye will be “dead” and not have a nice sparkle. ",
+        source: "Digital Photography School",
+        sourceUrl: "http://digital-photography-school.com/6-portrait-lighting-patterns-every-photographer-should-know/"
     },
     {
-        question: "What is a pure function?",
-        answer: "A pure function is a function that, given the same input, will always return the same output and does not have any observable side effect.",
-        source: "Professor Frisby's Mostly Adequate Guide to Functional Programming",
-        sourceUrl: "https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch3.html"
+        question: "What is butterfly lighting in portrait photography?",
+        answer: "Butterfly lighting is aptly named for the butterfly shaped shadow that is created under the nose by placing the main light source above and directly behind the camera.",
+        source: "Digital Photography School",
+        sourceUrl: "http://digital-photography-school.com/6-portrait-lighting-patterns-every-photographer-should-know/"
     },
     {
-        question: "What are first class functions?",
-        answer: "We can treat functions like any other data type and there is nothing particularly special about them - they may be stored in arrays, passed around, assigned to variables, what have you.",
-        source: "Professor Frisby's Mostly Adequate Guide to Functional Programming",
-        sourceUrl: "https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch1.html"
-    },
-    {
-        question: "What's the definition of a side effect within a function?",
-        answer: "A side effect is a change of system state or observable interaction with the outside world that occurs during the calculation of a result.",
-        source: "Professor Frisby's Mostly Adequate Guide to Functional Programming",
-        sourceUrl: "https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch3.html"
-    },
-    {
-        question: "What's a closure?",
-        answer: "A closure is the combination of a function and the scope object in which it was created. Closures let you save state — as such, they can often be used in place of objects.",
-        source: "Stack Overflow",
-        sourceUrl: "http://stackoverflow.com/questions/111102/how-do-javascript-closures-work"
-    },
-    {
-        question: "What's the spread operator?",
-        answer: "The spread operator allows an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals) are expected.",
-        source: "Mozilla Developer Network",
-        sourceUrl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator"
-    },
-    {
-        question: "What would the <code>.call()</code> method return in this example? <br><code>function add(c, d) {return this.a + this.b + c + d} <br> var o = {a:1, b:3};</code>",
-        answer: "The <code>call()</code> method calls a function with a given this value and arguments provided individually.<br><code>add.call(o, 5, 7); <br>// 1 + 3 + 5 + 7 = 16</code>",
-        source: "Mozilla Developer Network",
-        sourceUrl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this#As_a_constructor"
-    },
-    {
-        question: "What would the <code>.apply()</code> method return in this example? <br><code>function add(c, d) {<br>return this.a + this.b + c + d} <br> var o = {a:1, b:3};</code>",
-        answer: "The <code>apply()</code> method calls a function with a given this value and arguments provided as an array (or an array-like object).<br><code>add.apply(o, [10, 20]); <br>// 1 + 3 + 10 + 20 = 34</code>",
-        source: "Mozilla Developer Network",
-        sourceUrl: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this#As_a_constructor"
-    },
+        question: "What's the maximum aerial height for drone photography?",
+        answer: "133 metres (400 feet)",
+        source: "Digital Photography School",
+        sourceUrl: "hhttp://digital-photography-school.com/how-to-use-drones-to-do-stunning-aerial-photography/"
+    }
 ];
