@@ -1,4 +1,7 @@
-export const flashcardContent = [
+flashcardDeck = {
+  title: "JS",
+  catchPhrase: "Test how well you know JavaScript",
+  cards: [
     {
         question: "¿Que es un intrón?",
         answer: "Parte del gen que no codifica ningún aminoácido.",
@@ -123,7 +126,5 @@ export const flashcardContent = [
         source: "National Human Genome Research Institute",
         sourceUrl: "https://www.genome.gov/es/genetics-glossary/Codon"
     },
-    
-       
-    
-];
+  ]
+};

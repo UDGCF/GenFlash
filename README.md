@@ -1,23 +1,30 @@
-# ES2015 Flashcard App
+# JSFlashCards
 
-A basic MVC app written in vanilla ES2015 JavaScript, with a toolset of Babel, Gulp, Browserify and Sass. Users can view flashcard questions, click to reveal answers, and paginate forward and backward through cards.
+JSFlashCards is a simple HTML5 app which allows you to test your JavaScript knowledge.
 
-[www.ahoef.co/js-flashcards](http://www.ahoef.co/js-flashcards)
+To view a demo point your mobile web browser to:
+http://cjus.me/jsflashcards
 
+JSFlashCards uses John Fraser's showdown, a JavaScript port of Markdown. Flash cards exists in a JSON file containing markdown text for both questions and answers. This makes it possible to easily author HTML based flash cards.
 
-### Development 
+## Flashcard format
 
-Clone or fork this repo, run `npm install` from the directory, then run `gulp`, and you're all set! A local server isn't required. 
+A flashcard consist of an object entry in the js/cards.js file.
 
-I chose to set up my flashcard content around JavaScript, but you could easily change the questions and answers to whatever you'd like to study. Here's the schema for a card:
+    {
+        "question": "### How can you use primitive types to create objects?",
+        "answer": "Using the `new` operator:||    var numObject = new Number(10);|    console.log(typeOf numObject);|    > \"object\""
+    },
 
-```javascript
-{
-	question: "What is a pure function?",
-	answer: "A pure function is a function that, given the same input, will always return the same output and does not have any observable side effect.",
-	source: "Professor Frisby's Mostly Adequate Guide to Functional Programming",
-	sourceUrl: "https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch3.html"
-}
-```
+Each flashcard object consists of a question and answer key followed by a single line string containing markdown text.
+In order to keep the file neat, markdown is formatted on a single line. The pipe (|) separator is later converted into a newline to render multi-line entries.
 
+The following conventions are observed:
 
+* all questions being with a triple hash (###) to set a consistent font size
+* all JS keywords are surrounded with tick marks (`) for readability
+
+## Creating other flashcard apps
+
+In order to support the creation of other flashcard apps, the js/cards.js file contains the application title and catch phrase to display on the start screen.
+Forking this code and replacing the js/cards.js file should go a long way towards repurposing this app.
