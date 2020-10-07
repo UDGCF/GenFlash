@@ -50,7 +50,7 @@ flashcardDeck = {
     },
          {
         question: "¿A que se refiere Congénito?",
-        answer: "aquellas presentes desde el nacimiento",
+        answer: "Aquellas condiciones presentes desde el nacimiento",
         source: "National Human Genome Research Institute",
         sourceUrl: "https://www.genome.gov/es/genetics-glossary/Congenito"
     },
@@ -90,7 +90,7 @@ flashcardDeck = {
     },
     {
         question: "¿Qué es una Deleción?",
-        answer: "Tipo de mutación genética en la cual se pierde material genético.",
+        answer: "Tipo de variante genética en la cual se pierde material genético.",
     },
     {
         question: "¿Diploide?",
@@ -102,7 +102,7 @@ flashcardDeck = {
     },
     {
         question: "¿Qué es una Duplicación?",
-        answer: "Tipo de mutación que implica la producción de una o más copias de un gen o región de un cromosoma.",
+        answer: "Tipo de variant que implica la producción de una o más copias de un gen o región de un cromosoma.",
     },
     {
         question: "¿A que se refiere Epigenética?",
@@ -166,7 +166,7 @@ flashcardDeck = {
         answer: "Se refiere a haber heredado dos formas diferentes de un gen en particular, una de cada progenitor.",
     },{
         question: "¿Qué es una Inserción?",
-        answer: "Tipo de mutación que implica la adición de material genético.",
+        answer: "Tipo de variante que implica la adición de material genético.",
     },{
         question: "¿Qué es Locus?",
         answer: "Lugar específico del cromosoma donde está localizado un gen u otra secuencia de ADN, como su dirección genética. El plural de locus es 'loci'.",
@@ -199,7 +199,7 @@ flashcardDeck = {
         answer: "Alelo que queda enmascarado cuando se transmiten alelos diferentes.",
     },{
         question: "¿Qué es un Microsatélite?",
-        answer: "Cecuencias cortas repetitivas de ADN, compuestas de ADN no codificante y nos son parte de ningún gen.",
+        answer: "Cecuencias cortas repetitivas de ADN, compuestas de ADN no codificante y nos son parte de ningún gen. También conocidas como STR (Short Tandem Repeats)",
     },{
         question: "¿Qué es un Represor?",
         answer: "Es una proteína que desactiva la expresión de uno o más genes.",
@@ -211,7 +211,7 @@ flashcardDeck = {
         answer: "Enfermedad genética que es consecuencia de una anomalía cromosómica. Una persona con síndrome de Down hereda todo o parte de una copia extra del cromosoma 21.",
     },{
         question: "¿Qué es Sustitución?",
-        answer: "Tipo de mutación en el que se sustituye un par de bases por un par de bases diferentes.",
+        answer: "Tipo de variante en el que se sustituye un par de bases por un par de bases diferentes.",
     },{
         question: "¿Qué es un Telómero?",
         answer: "El extremo de un cromosoma, son secuencias repetitivas de ADN no codificante del cromosoma que protegen de cualquier daño.",
@@ -234,12 +234,23 @@ flashcardDeck = {
         question: "¿Qué es un Alelo?",
         answer: "Cada una de las dos o más versiones de un gen.",
     },{
-        question: "¿Qué es Codón?",
-        answer: "Secuencia de tres nucleótidos de ADN o ARN que corresponde a un aminoácido específico.",
+        question: "¿Qué terminos deben ser utilizados como reemplazo a mutación y polimorfismo?",
+        answer: "Terminos neutrales como 'variante', 'alteración' y 'cambio'.",
     },{
-        question: "¿Qué es Codón?",
-        answer: "Secuencia de tres nucleótidos de ADN o ARN que corresponde a un aminoácido específico.",
+        question: "¿Cuál es el orden de prioridad de las variantes de secuencia?",
+        answer: "(1) deleción, (2) inversión, (3) duplicación, (4) conversión, and (5) inserción",
+    },{
+        question: "¿Cuantos genes tiene el ser humano?",
+        answer: "25k~30k",
+    },{
+        question: "¿Qué porcentaje del genoma corresponde a DNA extragenico?",
+        answer: "~75%",
+    },{
+        question: "¿Qué porcentaje del genoma corresponde a secuencia genica?",
+        answer: "~25%",
     },
+    
+        
         
         
         
