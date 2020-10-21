@@ -1,6 +1,6 @@
 flashcardDeck = {
   title: "JS",
-  catchPhrase: "Test how well you know JavaScript",
+  catchPhrase: "Test your Genetics",
   cards: [
     {
         question: "¿Qué es un intrón?",
@@ -32,7 +32,7 @@ flashcardDeck = {
         sourceUrl: "https://www.genome.gov/es/genetics-glossary/Centromero"
     },
         {
-        question: "¿Qué es ​Citogenética?",
+        question: "¿Qué es Citogenética?",
         answer: "Campo de la genética que comprende el estudio de los cromosomas.",
         sourceUrl: "https://www.genome.gov/es/genetics-glossary/Citogenetica"
     },
@@ -93,7 +93,7 @@ flashcardDeck = {
         answer: "Tipo de variante genética en la cual se pierde material genético.",
     },
     {
-        question: "¿A qué se refiere Diploide?",
+        question: "¿Diploide?",
         answer: "Célula u organismo que tiene cromosomas emparejados, uno de cada progenitor.",
     },
     {
@@ -199,7 +199,7 @@ flashcardDeck = {
         answer: "Alelo que queda enmascarado cuando se transmiten alelos diferentes.",
     },{
         question: "¿Qué es un Microsatélite?",
-        answer: "Secuencias cortas repetitivas de ADN, compuestas de ADN no codificante y nos son parte de ningún gen. También conocidas como STR (Short Tandem Repeats)",
+        answer: "Cecuencias cortas repetitivas de ADN, compuestas de ADN no codificante y nos son parte de ningún gen. También conocidas como STR (Short Tandem Repeats)",
     },{
         question: "¿Qué es un Represor?",
         answer: "Es una proteína que desactiva la expresión de uno o más genes.",
@@ -248,24 +248,6 @@ flashcardDeck = {
     },{
         question: "¿Qué porcentaje del genoma corresponde a secuencia genica?",
         answer: "~25%",
-    },{
-        question: "¿Qué es aneuploidia?",
-        answer: "Es cuando el numero de  cromosomas esta  alterado (No incluye sets completos)",
-    },{
-        question: "¿Qué es Poliploidia?",
-        answer: "Son Sets completos de cromosomas se agregan o se borran.",
-    },{
-        question: "¿Cuales son los prefijos de referencia de secuencias?",
-        answer: "c.ADN codificante  g.Referencia genomica m.ADN mitocondrial n.ADN no-codificante p.Proteina r.RNA",
-    },{
-        question: "¿Qué Tipos de morfologia tiene un cromosoma?",
-        answer: "Metacentrico, submetacentrico, acrocentrico, telocentrico.",
-    },{
-        question: "¿Como se representa un codon de terminación?",
-        answer: "Con las letras 'TER' o con un '*'",
-    },{
-        question: "¿En un el cariotipo de un humano, en que grupos se dividen los cromosomas?",
-        answer: "Grupos A, B, C ,D ,E ,F ,G y sexuales",
     },
     
         
